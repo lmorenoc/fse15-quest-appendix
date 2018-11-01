@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <title>Laura Moreno - Ph.D. student @ UTD</title>
+  <link rel="stylesheet" type="text/css" href="../../css/css.css" />
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+  <div id="page">
+
+    <div id="header">
+
+      <div id="title">
+        <img src="../../images/logo-utd.png" alt="Laura Moreno">
+      </div>
+
+      <div class="social">
+        <a href="http://facebook.com/lvmorenoc" class="link facebook" target="_blank"><span class="fa fa-facebook-square"></span></a>
+        <a href="https://twitter.com/lvmorenoc" class="link twitter" target="_blank"><span class="fa fa-twitter"></span></a>
+        <a href="https://plus.google.com/+LauraMorenoC" class="link google-plus" target="_blank"><span class="fa fa-google-plus-square"></span></a>
+        <a href="http://scholar.google.com/citations?user=UJM5NfoAAAAJ&hl=en" class="link google-scholar" target="_blank"><span class="fa fa-graduation-cap"></span></a>
+      </div>
+
+      <br class="clear" />
+
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li><a href="../../awards.html">Awards</a>
+        </li>
+        <li><a href="../../teaching.html">Teaching</a>
+        </li>
+        <li><a href="../../service.html">Service</a>
+        </li>
+        <li><a href="../../publications.html">Publications</a>
+        </li>
+        <li><a href="../../index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div id="body">
+
+      <div id="main">
+
+        <h1>ESEC/FSE 2015 Online Appendix</h1>
+        <hr />
+
+        <div class="content">
+
+          <p>This web page contains the replication package for the ESEC/FSE 2015 submission:</p>
+          <p class="paperTitle centered-h">Query-based Configuration of Text Retrieval Solutions <br />for Software Engineering Tasks</p>
+
+          <h2>Dataset</h2>
+          <div class="artifactTable">
+            <p>
+              <table>
+                <tr>
+                  <td>
+                    <p class="artifactTitle">Change requests</p>
+                    <p class="artifactDescription">Zip file containing the change requests used in both studies. Each folder in the zip file corresponds to a different software system and contains 3 files: *_Mapping.txt, *_Corpus.txt, and *_Queries.txt. See the README file included in the zip file for more information.</p>
+                  </td>
+                  <td class="icon">
+                    <a href="dataset.zip">
+                      <img src="../../images/zip.png" alt="[ZIP]" border="0" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="artifactTitle">Stop words</p>
+                    <p class="artifactDescription">List of stop words used to process the change request. The list includes Java keywords, English common words, and HTML keywords.</p>
+                  </td>
+                  <td class="icon">
+                    <a href="stopwords-en-java-html.txt">
+                      <img src="../../images/txt.png" alt="[TXT]" border="0" />
+                  </td>
+                </tr>
+              </table>
+            </p>
+          </div>
+
+
+          <h2>Exploratory Study</h2>
+          <div class="artifactTable">
+            <p>
+              <table>
+                <tr>
+                  <td>
+                    <p class="artifactTitle">Effectiveness</p>
+                    <p class="artifactDescription">Spreadsheet containing the TR configurations used in the study, the effectiveness achieved by each TR configuration for each query, and an analysis of the best global and local TR configuration.</p>
+                  </td>
+                  <td class="icon">
+                    <a href="study-i/effectiveness-all-configs.xlsx">
+                      <img src="../../images/xls.png" alt="[XLS]" border="0" />
+                  </td>
+                </tr>
+              </table>
+            </p>
+          </div>
+
+          <h2><span class="code">QUEST</span> Implementation</h2>
+          <div class="artifactTable">
+            <p>
+              <table>
+                <tr>
+                  <td>
+                    <p class="artifactTitle">Pre-retrieval properties and measures</p>
+                    <p class="artifactDescription">PDF document describing the pre-retrieval properties and measures implemented by <span class="code">QUEST</span>.</p>
+                  </td>
+                  <td class="icon">
+                    <a href="pre-retrieval-measures.pdf">
+                      <img src="../../images/pdf.png" alt="[PDF]" border="0" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="artifactTitle">Post-retrieval properties and measures</p>
+                    <p class="artifactDescription">PDF document describing the post-retrieval properties and measures implemented by <span class="code">QUEST</span>.</p>
+                  </td>
+                  <td class="icon">
+                    <a href="post-retrieval-measures.pdf">
+                      <img src="../../images/pdf.png" alt="[PDF]" border="0" />
+                  </td>
+                </tr>
+              </table>
+            </p>
+          </div>
+
+          <h2><span class="code">QUEST</span> Evaluation Study</h2>
+          <div class="artifactTable">
+            <p>
+              <table>
+                <tr>
+                  <td>
+                    <p class="artifactTitle"><span class="code">QUEST</span> results</p>
+                    <p class="artifactDescription">Spreadsheet containing the TR configuration recommended by <span class="code">QUEST</span> and compared to eight baselines. The analysis includes but is not limited to effectiveness comparison between <span class="code">QUEST</span> and the baselines; number (and percentage) of queries whose effectiveness was improved, preserved and deteriorated by the recommender; MRR and MAP values; etc.</p>
+                  </td>
+                  <td class="icon">
+                    <a href="study-ii/quest-results.xlsx">
+                      <img src="../../images/xls.png" alt="[ZIP]" border="0" />
+                  </td>
+                </tr>
+              </table>
+            </p>
+          </div>
+
+          <h2>Authors</h2>
+          <p>
+            <ul>
+              <li>
+                <p><a href="http://www.utdallas.edu/~lmorenoc/" target="_blank">Laura Moreno</a>
+                  <br />E-mail: lmorenoc at utdallas dot edu</p>
+              </li>
+              <li>
+                <p><a href="http://www.dmi.unisa.it/people/bavota/www/" target="_blank">Gabriele Bavota</a>
+                  <br />E-mail: gabriele.bavota at unibz dot it</p>
+              </li>
+              <li>
+                <p><a href="http://www.cs.fsu.edu/~shaiduc/" target="_blank">Sonia Haiduc</a>
+                  <br />E-mail: shaiduc at cs dot fsu dot edu</p>
+              </li>
+              <li>
+                <p><a href="http://www.rcost.unisannio.it/mdipenta/" target="_blank">Massimiliano Di Penta</a>
+                  <br />E-mail: dipenta at unisannio dot it</p>
+              </li>
+              <li>
+                <p><a href="http://www.distat.unimol.it/people/oliveto/" target="_blank">Rocco Oliveto</a>
+                  <br />E-mail: rocco.oliveto at unimol dot it</p>
+              </li>
+              <li>
+                <p>Barbara Russo
+                  <br />E-mail: brusso at unibz dot it</p>
+              </li>
+              <li>
+                <p><a href="http://www.utdallas.edu/~amarcus" target="_blank">Andrian Marcus</a>
+                  <br />E-mail: amarcus at utdallas dot edu</p>
+              </li>
+
+            </ul>
+          </p>
+
+        </div>
+
+        <br/>
+
+        <hr />
+      </div>
+    </div>
+
+    <div id="bottom">
+      <p><a href="http://cs.utdallas.edu/" rel="noreferrer" target="_blank">Department of Computer Science</a> &#9679; <a href="http://www.utdallas.edu/" rel="noreferrer" target="_blank">The University of Texas at Dallas</a>
+      </p>
+      <p>Richardson, TX 75080, USA</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

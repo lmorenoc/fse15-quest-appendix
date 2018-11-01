@@ -27,7 +27,7 @@ This web page contains the replication package for the FSE 2015 paper:
 | **Pre-retrieval properties and measures.** PDF document describing the pre-retrieval properties and measures implemented by QUEST. | [[PDF]](pre-retrieval-measures.pdf) |
 | **Post-retrieval properties and measures.** PDF document describing the post-retrieval properties and measures implemented by QUEST. | [[PDF]](post-retrieval-measures.pdf) |
 
-## <a name="study-ii"></a> QUEST evaluation study
+## <a name="evaluation"></a> QUEST evaluation study
 
 | Description | Download |
 | --- | --- |
